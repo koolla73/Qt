@@ -44,7 +44,7 @@ jobs:
           ./configure \
           -opensource \
           -confirm-license \
-          -debug-and-release \
+          -release \
           -static \
           -platform linux-clang \
           -mp \
