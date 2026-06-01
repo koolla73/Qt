@@ -160,7 +160,7 @@ jobs:
       - name: Download the config file
         uses: actions/upload-artifact@v7
         with:
-          name: Qt-Linux-${{ env.Qt_patch_version }}-Shared
+          name: Qt-Linux-${{ env.Qt_patch_version }}-Static
           path: ${{ github.workspace }}/qt-everywhere-src-${{ env.Qt_patch_version }}/config.summary
           if-no-files-found: error
           include-hidden-files: true
