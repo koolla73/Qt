@@ -144,3 +144,12 @@ jobs:
           sudo git remote add origin https://${{ env.PAT }}@github.com/${{ github.repository_owner }}/Qt-macOS-Static.git
           sudo git remote -v
           sudo git push origin main
+
+      - name: Download the config file
+        uses: actions/upload-artifact@v7
+        with:
+          name: Qt-macOS-${{ env.Qt_patch_version }}-Static
+          path: ${{ github.workspace }}/qt-everywhere-src-${{ env.Qt_patch_version }}/config.summary
+          if-no-files-found: error
+          include-hidden-files: true
+          retention-days: 1
