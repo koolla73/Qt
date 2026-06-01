@@ -11,7 +11,7 @@ on:
 env:
   Qt_minor_version: 5.15
   Qt_patch_version: 5.15.19
-  openssl_location: /usr/local/Cellar/openssl@3/3.3.2
+  openssl_location: /usr/local/Cellar/openssl@1.1/1.1.1w
   
 jobs:
   build:
