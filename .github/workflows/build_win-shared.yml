@@ -1,4 +1,4 @@
-name: Qt Win Shared
+name: Qt Windows Shared
 
 on:
   push:
