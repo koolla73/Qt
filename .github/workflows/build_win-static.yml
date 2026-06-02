@@ -58,6 +58,8 @@ jobs:
         with:
           toolset: 14.16
       - name: Configure Qt ${{ env.Qt_patch_version }}
+        env:
+          FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
         working-directory: C:/qt-everywhere-src-${{ env.Qt_patch_version }}
         shell: cmd
         run: |
