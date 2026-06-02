@@ -13,6 +13,7 @@ env:
   Qt_patch_version: 5.15.19
   openssl_location: C:\Program Files\OpenSSL
   sevenzip_location: C:\Program Files\7-Zip
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
   
 jobs:
   build:
