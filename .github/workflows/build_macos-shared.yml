@@ -34,7 +34,6 @@ jobs:
           -debug-and-release \
           -shared \
           -platform macx-clang \
-          -mp \
           -gif \
           -qt-libjpeg \
           -qt-libpng \
