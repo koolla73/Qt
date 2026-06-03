@@ -47,7 +47,6 @@ jobs:
           -release \
           -static \
           -platform linux-clang \
-          -mp \
           -gif \
           -qt-libjpeg \
           -qt-libpng \
